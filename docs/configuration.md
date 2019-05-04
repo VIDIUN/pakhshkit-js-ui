@@ -6,7 +6,7 @@ Configuration parameters could be provided upon instantiation of the UI manager 
 var config = {
   // Configuration here
 };
-var uiManager = new playkit.ui.UIManager(player, config);
+var uiManager = new pakhshkit.ui.UIManager(player, config);
 ```
 
 #### Configuration Structure
