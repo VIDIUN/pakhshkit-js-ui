@@ -1,8 +1,8 @@
 {
-  "name": "@playkit-js/playkit-js-ui",
+  "name": "@pakhshkit-js/pakhshkit-js-ui",
   "version": "0.40.0",
   "description": "",
-  "main": "dist/playkit-ui.js",
+  "main": "dist/pakhshkit-ui.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "prebuild": "npm run clean",
@@ -40,7 +40,7 @@
     "redux": "^3.6.0"
   },
   "devDependencies": {
-    "@playkit-js/playkit-js": "^0.37.0",
+    "@pakhshkit-js/pakhshkit-js": "^0.37.0",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.1.1",
@@ -98,22 +98,22 @@
     "webpack-dev-server": "latest"
   },
   "keywords": [
-    "kaltura",
+    "vidiun",
     "player",
-    "playkit-js",
-    "playkit-js-ui",
+    "pakhshkit-js",
+    "pakhshkit-js-ui",
     "html5 player"
   ],
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaltura/playkit-js-ui.git"
+    "url": "git+https://github.com/vidiun/pakhshkit-js-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/kaltura/playkit-js-ui/issues"
+    "url": "https://github.com/vidiun/pakhshkit-js-ui/issues"
   },
-  "homepage": "https://github.com/kaltura/playkit-js-ui#readme",
-  "kcc": {
-    "name": "playkit-ui"
+  "homepage": "https://github.com/vidiun/pakhshkit-js-ui#readme",
+  "vcc": {
+    "name": "pakhshkit-ui"
   }
 }

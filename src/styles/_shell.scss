@@ -83,7 +83,7 @@
   }
 }
 
-.player :global([id^='playkit-ads-container']) {
+.player :global([id^='pakhshkit-ads-container']) {
   &:global([data-adtype='overlay']) {
     z-index: 1;
   }
@@ -91,9 +91,9 @@
 }
 
 .player:not(.ad-break).metadata-loaded {
-  &.hover :global([id^='playkit-ads-container']),
-  &.state-paused :global([id^='playkit-ads-container']),
-  &.state-idle :global([id^='playkit-ads-container']) {
+  &.hover :global([id^='pakhshkit-ads-container']),
+  &.state-paused :global([id^='pakhshkit-ads-container']),
+  &.state-idle :global([id^='pakhshkit-ads-container']) {
     transform: translateY(-60px);
   }
 }

@@ -12,7 +12,7 @@ Component that shows black overlay with loading spinner when player is not in `i
 
 ```html
 //@flow
-import { h, Loading } from 'playkit-js-ui';
+import { h, Loading } from 'pakhshkit-js-ui';
 
 export default function customUIPreset(props: any) {
   return (

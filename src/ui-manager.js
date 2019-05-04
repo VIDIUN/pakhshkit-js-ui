@@ -145,7 +145,7 @@ class UIManager {
       reducer,
       window.devToolsExtension &&
         window.devToolsExtension({
-          name: `playkit #${this.targetId}`,
+          name: `pakhshkit #${this.targetId}`,
           instanceId: this.targetId
         }),
       middleware(this.player, config)

@@ -13,7 +13,7 @@ Component that display the current time, duration and time left based on format.
 
 ```html
 //@flow
-import { h, TimeDisplay } from 'playkit-js-ui';
+import { h, TimeDisplay } from 'pakhshkit-js-ui';
 
 export default function customUIPreset(props: any) {
   return (

@@ -14,7 +14,7 @@ A component that changes the seekbar state.
 
 ```html
 //@flow
-import { h, SeekBarControl } from 'playkit-js-ui';
+import { h, SeekBarControl } from 'pakhshkit-js-ui';
 
 export default function customUIPreset(props: any) {
   return (
