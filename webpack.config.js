@@ -4,7 +4,7 @@ const webpack = require("webpack");
 const path = require("path");
 const PROD = (process.env.NODE_ENV === 'production');
 const packageData = require("./package.json");
-const CSS_MODULE_PREFIX = 'playkit';
+const CSS_MODULE_PREFIX = 'pakhshkit';
 
 let plugins = [
   new webpack.DefinePlugin({
@@ -22,12 +22,12 @@ if (PROD) {
 module.exports = {
   context: __dirname + "/src",
   entry: {
-    "playkit-ui": "index.js"
+    "pakhshkit-ui": "index.js"
   },
   output: {
     path: __dirname + "/dist",
     filename: '[name].js',
-    library: ["playkit", "ui"],
+    library: ["pakhshkit", "ui"],
     libraryTarget: "umd",
     devtoolModuleFilenameTemplate: "./ui/[resource-path]"
   },
@@ -86,11 +86,11 @@ module.exports = {
     ]
   },
   externals: {
-    "playkit-js": {
-      commonjs: "playkit-js",
-      commonjs2: "playkit-js",
-      amd: "playkit-js",
-      root: ["playkit", "core"]
+    "pakhshkit-js": {
+      commonjs: "pakhshkit-js",
+      commonjs2: "pakhshkit-js",
+      amd: "pakhshkit-js",
+      root: ["pakhshkit", "core"]
     }
   }
 };

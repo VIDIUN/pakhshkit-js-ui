@@ -1,5 +1,5 @@
 // @flow
-const namespace = 'playkit-ui';
+const namespace = 'pakhshkit-ui';
 
 const EventType: { [event: string]: string } = {
   UI_CLICKED: `${namespace}-uiclicked`,

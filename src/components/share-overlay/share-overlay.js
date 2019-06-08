@@ -55,7 +55,7 @@ class ShareOverlay extends BaseComponent {
   componentWillMount() {
     this.setState({
       state: shareOverlayState.Main,
-      shareUrl: 'https://cdnapisec.kaltura.com/index.php?assetId=123456',
+      shareUrl: 'https://cdnapisec.vidiun.com/index.php?assetId=123456',
       startFrom: false,
       startFromValue: 0
     });
@@ -138,7 +138,7 @@ class ShareOverlay extends BaseComponent {
    * @memberof ShareOverlay
    */
   getEmbedCode(): string {
-    return '<iframe src="//cdnapi.kaltura.com/p/243342/sp/24334200/embedIframeJs/uiconf_id/28685261/partner_id/243342?iframeembed=true&playerId=kdp&entry_id=1_sf5ovm7u&flashvars[streamerType]=auto" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0"></iframe>';
+    return '<iframe src="//cdnapi.vidiun.com/p/243342/sp/24334200/embedIframeJs/uiconf_id/28685261/partner_id/243342?iframeembed=true&playerId=vdp&entry_id=1_sf5ovm7u&flashvars[streamerType]=auto" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0"></iframe>';
   }
 
   /**
@@ -184,35 +184,35 @@ class ShareOverlay extends BaseComponent {
         <div className="share-main-container">
           <div className='share-icons'>
             <a
-              href='https://player.kaltura.com/video/220277207/share/facebook' target='_blank' rel='noopener noreferrer'
+              href='https://player.vidiun.com/video/220277207/share/facebook' target='_blank' rel='noopener noreferrer'
               title='Share on Facebook' role='button' aria-label='Share on Facebook'
               className='btn-rounded facebook-share-btn'
-              onClick={() => this.share('https://player.kaltura.com/video/220277207/share/facebook')}
+              onClick={() => this.share('https://player.vidiun.com/video/220277207/share/facebook')}
             >
               <Icon type={IconType.Facebook}/>
             </a>
             <a
-              href='https://player.kaltura.com/video/220277207/share/twitter' target='_blank' rel='noopener noreferrer'
+              href='https://player.vidiun.com/video/220277207/share/twitter' target='_blank' rel='noopener noreferrer'
               title='Share on Twitter' role='button' aria-label='Share on Twitter'
               className='btn-rounded twitter-share-btn'
-              onClick={() => this.share('https://player.kaltura.com/video/220277207/share/twitter')}
+              onClick={() => this.share('https://player.vidiun.com/video/220277207/share/twitter')}
             >
               <Icon type={IconType.Twitter}/>
             </a>
             <a
-              href='https://player.kaltura.com/video/220277207/share/google-plus' target='_blank'
+              href='https://player.vidiun.com/video/220277207/share/google-plus' target='_blank'
               rel='noopener noreferrer'
               title='Share on Google Plus' role='button' aria-label='Share on Google Plus'
               className='btn-rounded google-plus-share-btn'
-              onClick={() => this.share('https://player.kaltura.com/video/220277207/share/google')}
+              onClick={() => this.share('https://player.vidiun.com/video/220277207/share/google')}
             >
               <Icon type={IconType.GooglePlus}/>
             </a>
             <a
-              href='https://player.kaltura.com/video/220277207/share/linkedin' target='_blank' rel='noopener noreferrer'
+              href='https://player.vidiun.com/video/220277207/share/linkedin' target='_blank' rel='noopener noreferrer'
               title='Share on Linkedin' role='button' aria-label='Share on Linkedin'
               className='btn-rounded linkedin-share-btn'
-              onClick={() => this.share('https://player.kaltura.com/video/220277207/share/linkedin')}
+              onClick={() => this.share('https://player.vidiun.com/video/220277207/share/linkedin')}
             >
               <Icon type={IconType.Linkedin}/>
             </a>

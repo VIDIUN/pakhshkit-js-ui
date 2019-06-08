@@ -12,7 +12,7 @@ import definition from './fr.json';
 
 import {actions} from './reducers/config';
 
-import {Player} from 'playkit-js';
+import {Player} from 'pakhshkit-js';
 
 // core components for the UI
 import {EngineConnector} from './components/engine-connector';
@@ -121,7 +121,7 @@ export default class UIManager {
   _createStore(config: UIOptionsObject): void {
     this.store = createStore(reducer,
       window.devToolsExtension && window.devToolsExtension({
-        name: `playkit #${this.targetId}`,
+        name: `pakhshkit #${this.targetId}`,
         instanceId: this.targetId
       }), middleware(this.player, config));
   }
