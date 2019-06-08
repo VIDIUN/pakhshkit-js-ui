@@ -1,6 +1,6 @@
 //@flow
 import {Component} from 'preact';
-import Player from 'playkit-js';
+import Player from 'pakhshkit-js';
 import getLogger from '../utils/logger';
 import {types} from '../middlewares/event-dispatcher';
 

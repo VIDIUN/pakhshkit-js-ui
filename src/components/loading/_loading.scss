@@ -1,6 +1,6 @@
 @import '~styles/variables';
 
-@keyframes kaltura-spinner {
+@keyframes vidiun-spinner {
   0% {
     transform: rotate(0deg) scale(0.7);
     opacity: 1;
@@ -55,7 +55,7 @@
   width: 100px;
   height: 100px;
   position: relative;
-  animation: kaltura-spinner 2.5s infinite;
+  animation: vidiun-spinner 2.5s infinite;
 
   span {
     width: $spinner-circle-radius * 2;

@@ -12,7 +12,7 @@ Component that toggles fullscreen state.
 
 ```html
 //@flow
-import { h, FullscreenControl } from 'playkit-js-ui';
+import { h, FullscreenControl } from 'pakhshkit-js-ui';
 
 export default function customUIPreset(props: any) {
   return (

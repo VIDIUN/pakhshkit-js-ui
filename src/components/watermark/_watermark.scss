@@ -22,8 +22,8 @@
 
 .player {
   &:not(.pre-playback):not(.overlay-active) {
-    &.state-paused :global(.playkit-watermark.playkit-bottom),
-    &.hover :global(.playkit-watermark.playkit-bottom) {
+    &.state-paused :global(.pakhshkit-watermark.pakhshkit-bottom),
+    &.hover :global(.pakhshkit-watermark.pakhshkit-bottom) {
       transform: translateY(-60px);
     }
   }
